@@ -4,14 +4,14 @@ import './styles.css'
 function Pagination() {
 
     return (
-        <div className="dsmovie-pagination-container">
-            <div className="dsmovie-pagination-box">
-                <button className="dsmovie-pagination-button" disabled={true} >
+        <div className="zttmovie-pagination-container">
+            <div className="zttmovie-pagination-box">
+                <button className="zttmovie-pagination-button" disabled={true} >
                     <Arrow />
                 </button>
                 <p>{`${1} de ${3}`}</p>
-                <button className="dsmovie-pagination-button" disabled={false} >
-                    <Arrow className="dsmovie-flip-horizontal" />
+                <button className="zttmovie-pagination-button" disabled={false} >
+                    <Arrow className="zttmovie-flip-horizontal" />
                 </button>
             </div>
         </div>
