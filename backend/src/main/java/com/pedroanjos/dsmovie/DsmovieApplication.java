@@ -1,13 +1,13 @@
-package com.pedroanjos.zttmovie;
+package com.pedroanjos.dsmovie;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ZttmovieApplication {
+public class DsmovieApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ZttmovieApplication.class, args);
+		SpringApplication.run(DsmovieApplication.class, args);
 	}
 
 }

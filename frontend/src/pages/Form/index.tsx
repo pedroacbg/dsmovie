@@ -12,16 +12,16 @@ function Form() {
     };
 
     return (
-        <div className="zttmovie-form-container">
-            <img className="zttmovie-movie-card-image" src={movie.image} alt={movie.title} />
-            <div className="zttmovie-card-bottom-container">
+        <div className="dsmovie-form-container">
+            <img className="dsmovie-movie-card-image" src={movie.image} alt={movie.title} />
+            <div className="dsmovie-card-bottom-container">
                 <h3>{movie.title}</h3>
-                <form className="zttmovie-form">
-                    <div className="form-group zttmovie-form-group">
+                <form className="dsmovie-form">
+                    <div className="form-group dsmovie-form-group">
                         <label htmlFor="email">Informe seu email</label>
                         <input type="email" className="form-control" id="email" />
                     </div>
-                    <div className="form-group zttmovie-form-group">
+                    <div className="form-group dsmovie-form-group">
                         <label htmlFor="score">Informe sua avaliação</label>
                         <select className="form-control" id="score">
                             <option>1</option>
@@ -31,12 +31,12 @@ function Form() {
                             <option>5</option>
                         </select>
                     </div>
-                    <div className="zttmovie-form-btn-container">
-                        <button type="submit" className="btn btn-primary zttmovie-btn">Salvar</button>
+                    <div className="dsmovie-form-btn-container">
+                        <button type="submit" className="btn btn-primary dsmovie-btn">Salvar</button>
                     </div>
                 </form >
                 <Link to="/">
-                    <button className="btn btn-primary zttmovie-btn mt-3">Cancelar</button>
+                    <button className="btn btn-primary dsmovie-btn mt-3">Cancelar</button>
                 </Link>
 
             </div >

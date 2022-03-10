@@ -1,10 +1,10 @@
-.zttmovie-stars-container {
+.dsmovie-stars-container {
     width: 130px;
     display: flex;
     justify-content: space-between;
 }
 
-.zttmovie-stars-container svg {
+.dsmovie-stars-container svg {
     width: 22px;
     height: auto;
 }

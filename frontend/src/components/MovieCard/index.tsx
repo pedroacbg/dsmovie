@@ -14,8 +14,8 @@ function MovieCard() {
 
     return (
         <div>
-            <img className="zttmovie-movie-card-image" src={movie.image} alt={movie.title} />
-            <div className="zttmovie-card-bottom-container">
+            <img className="dsmovie-movie-card-image" src={movie.image} alt={movie.title} />
+            <div className="dsmovie-card-bottom-container">
                 <h3>{movie.title}</h3>
                 <MovieScore />
 

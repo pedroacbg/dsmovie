@@ -1,10 +1,10 @@
-package com.pedroanjos.zttmovie;
+package com.pedroanjos.dsmovie;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ZttmovieApplicationTests {
+class DsmovieApplicationTests {
 
 	@Test
 	void contextLoads() {

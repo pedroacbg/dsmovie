@@ -7,10 +7,10 @@ function MovieScore() {
     const count = 13;
 
     return (
-        <div className="zttmovie-score-container">
-            <p className="zttmovie-score-value">{score > 0 ? score.toFixed(1) : '-'}</p>
+        <div className="dsmovie-score-container">
+            <p className="dsmovie-score-value">{score > 0 ? score.toFixed(1) : '-'}</p>
             <MovieStars />
-            <p className="zttmovie-score-count">{count} avaliações</p>
+            <p className="dsmovie-score-count">{count} avaliações</p>
         </div>
     );
 }
