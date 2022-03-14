@@ -9,5 +9,5 @@
 ### <div align="left">Modelo Conceitual do projeto<div />
 
 <div align="left">
-  <img height="250cm" width="600cm" src="https://raw.githubusercontent.com/devsuperior/bds-assets/main/sds/dsmovie-dominio.png" />  
+  <img height="210cm" width="700cm" src="https://raw.githubusercontent.com/devsuperior/bds-assets/main/sds/dsmovie-dominio.png" />  
 <div />
